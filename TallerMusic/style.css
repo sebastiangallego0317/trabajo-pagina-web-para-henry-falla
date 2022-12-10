@@ -1,0 +1,98 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 47%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 210px;
+    width: auto;
+}
+.primerParte{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-color: rgb(235, 81, 64);
+    border-radius: 30px;
+    background-color:rgb(235, 81, 64);
+    color: white;
+    font-size: 20px;
+    width: 130px;
+    display: inline-block;  
+}
+button:hover{
+    cursor: pointer;
+}
+.difuminado{
+    background: linear-gradient(to right, rgb(235, 81, 64), rgb(101, 2, 158), rgb(64, 1, 101), rgb(64, 1, 101), rgb(64, 1, 101));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.segunadParte{
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
+}
+.ultimaImg{
+    background-image: url("images/john-raptis.png");
+    height: 600px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size: 50px;
+}
+footer{
+    background: linear-gradient(to bottom right, rgb(235, 81, 64), rgb(255, 0, 136));
+    height: 300px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.listasdelfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 50%;
+    border-bottom: 2px solid white ;
+    padding: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+
+
+.creditosdelfooter{
+    color: white;
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content:space-around;
+}
